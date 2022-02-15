@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  .fiel{
+    font-family: 'Secular One', sans-serif;
+    margin-left: 8%;
+    height: 30%;
+    text-align: center;
+	
+  }
+  fieldset{
+      border:0;
+      margin-top: 0%;
+  }
+
+  .studio{
+      padding: 28px;
+      background-color: black;
+  }
+  .flex{
+      display: flex;
+      
+  }
+ 
+  .titulo{
+    font-size: 30px;
+    text-align: center;
+    margin-right: 20%;
+    margin-top: 6%;
+	    
+}
+
+#cliente{
+	margin-left: 30%;
+    margin-top: 18%;
+    
+}
+
+#subtitulo{
+    font-size: 25px;
+    text-align: center;
+    margin-right: 20%;
+    margin-top: 6%;
+}
+#nascemos{
+    font-size: 20px;
+    text-align: center;
+    margin-right: 20%;
+    margin-top: 6%;
+    margin-left: 140px;
+}
+.ola{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 10%;
+    margin-top: 0%;
+    font-size: 30px;
+    
+}
+.button {
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 50px; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+    padding: 10px 35px;
+    text-align: justify;
+    text-indent: 50px;
+    font-size: 14px;
+    font-weight: 700;
+    border:none;
+    cursor: pointer;
+    background: black;
+    color:#EC576B;
+    font-family: 'Secular One', sans-serif;
+    margin-top: 4%;
+    margin-right: 20%;
+        
+}
+
+.button2 {
+background-color: black; 
+color: black; 
+border: 2px solid black;
+border-radius: 20px;
+position: absolute;
+left: 860px;
+margin-top: 7%;
+padding: 5px 30px;
+color: #EC576B;
+font-family: 'Secular One', sans-serif;
+text-align: center;
+}
+
+.button2:hover {
+background-color: #EC576B;
+color: white;
+}
+.button1{
+background-color: black; 
+color: black; 
+border: 2px solid black;
+border-radius: 20px;
+position: absolute;
+left: 870px;
+padding: 5px 30px;
+font-family: 'Secular One', sans-serif;
+color: #EC576B;
+text-align: center;
+}
+
+.button1:hover {
+background-color: #EC576B;
+color: white;
+}
+.button3{
+background-color: black; 
+color: black; 
+border: 2px solid black;
+border-radius: 20px;
+position: absolute;
+margin-left: -8%;
+padding: 5px 30px;
+font-family: 'Secular One', sans-serif;
+color: #EC576B;
+text-align: center;        
+}
+.button3:hover {
+background-color: #EC576B;
+color: white;
+}
+#zap{
+color: #EC576B;  
+text-decoration:none;  
+}
+#zap:hover{
+background-color: #EC576B;
+color: white;    
+}
+input, select, button{
+    border-radius: 5px;
+border: 2px solid black ;
+
+}
+#promocao{
+    font-family: 'Secular One', sans-serif;
+    text-align: center;
+}
+.campo{
+   font-size: 23px;
+}
+.camponome{
+    margin-left: 20px;   
+    
+}
+.camposenha{
+    margin-left: 160px;
+}
+.menu{
+    display: flex;
+    background-color: #000000;
+    float:left;
+    list-style:none;
+    border: 2px solid black;
+    letter-spacing: 0px
+    
+}
+
+.menu-h {
+    padding: 0%;
+    background-color: #000000;
+    margin-top: 3%;
+    word-spacing: 0px;
+    letter-spacing: -0.5px;
+    word-spacing: 1px;
+    
+}
+.menu-h  li{
+   display:inline;
+   font-family: 'Secular One', sans-serif ;
+   padding: 5px 59.75px;
+   width: 30px;
+     
+}
+
+.menu-h li a{
+    color:azure;
+    text-decoration: none;
+     text-align-last: center;
+     text-align: center;
+}
+
+.menu-h  li a:hover{
+    color:#EC576B;
+
+}
+#roupas{
+    display: flex;
+    padding: 0.23em;
+    background-color: #FEF9F9;
+    font-family: 'Secular One', sans-serif ;
+    display: inline flex;
+    margin-top: 3%;
+    margin-block: 30px;
+    text-align: center;
+}
+#roupas div{
+    margin-left: 4%;
+}
+#p{
+    color: #E4EF5F;
+    ;
+}
+#cupom{
+  margin-top: 10%;
+  color: #E4EF5F;
+  background-color: black;
+  font-family: 'Secular One', sans-serif ;
+}
+#pesquisa{
+background: #FFFFFF;
+mix-blend-mode: hard-light;
+border: 2px solid #000000;
+border-radius: 30px;
+margin-top: 4%;
+padding: 3%;
+}
+.campo1{
+    margin-left: 17%;
+}
+.campo2{
+    margin-left: 0%;
+}
+.campo3{
+    margin-left: 17%;
+}
+.campo4{
+    margin-left: 0%;
+}
+.campo5{
+    margin-left: 25%;
+}
+.campo6{
+    margin-left: -4%;
+}
+.campo7{
+    margin-left: 17%;
+}
+.campo8{
+    margin-left: -8%;
+}
+.campojs{
+    margin-left: 5%;
+    padding: 30px 50px;
+    font-family: 'Secular One', sans-serif;
+    text-align: center;  
+    box-sizing: border-box; 
+    margin-left: -15%;
+
+}
+#contato{
+    margin-right: 10%;
+    margin-top: 4%;
+    font-size: 30px;
+    margin-left: -20px;
+}
+#fale{
+    margin-right: 10%;
+    margin-left: 50px;
+}
+#campoMensagem{
+    padding: 30px;
+}
+.sobre{
+    display: flex;
+    background-color: #EC576B;
+    margin-top: 5%;
+}
+#infor{ 
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
+    padding: 25px;
+    margin-right: 10%;
+}
+#redes{ 
+    width: 20%;
+    margin-right: 3%;
+    padding: 30px;
+    font-family: 'Secular One', sans-serif;
+    padding-right: 266px;
+    text-align: center;
+}
+#contato{
+    font-family: 'Secular One', sans-serif;
+    margin-right: 5%;
+    font-size: 20px;
+    text-align: center;
+
+}
+#hot{
+    background-color: #000000;
+}
